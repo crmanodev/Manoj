@@ -15,8 +15,6 @@ import {
 } from "react-router-dom";
 
 function GlobalImport() {
-  console.log("Hiiiiiiiiiiii");
-
   // console.log(user, auth);
 
   // const Layout = useCallback(() => {
