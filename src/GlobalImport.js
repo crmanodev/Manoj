@@ -22,7 +22,7 @@ function GlobalImport() {
     return (
       <>
         <TopNavBar />
-        <Outlet />
+       
       </>
     );
   };

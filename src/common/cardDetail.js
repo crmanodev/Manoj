@@ -10,6 +10,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CreateRoundedIcon from "@mui/icons-material/CreateRounded";
 import DeleteRoundedIcon from "@mui/icons-material/DeleteRounded";
+import { Box } from "@material-ui/core";
 
 export default function () {
   return (
@@ -34,8 +35,8 @@ export default function () {
           <Button size="small" variant="contained">
             Buy
           </Button>
-          <CreateRoundedIcon />
-          <DeleteRoundedIcon />
+          <CreateRoundedIcon style={{ float: "right" }} />
+          <DeleteRoundedIcon style={{ float: "right" }} />
         </CardActions>
         <CardMedia
           sx={{ height: 140 }}
@@ -56,8 +57,10 @@ export default function () {
           <Button size="small" variant="contained">
             Buy
           </Button>
-          <CreateRoundedIcon />
-          <DeleteRoundedIcon />
+          <Box sx={{ float: "right" }}>
+            <CreateRoundedIcon />
+            <DeleteRoundedIcon />
+          </Box>
         </CardActions>
         <CardMedia
           sx={{ height: 140 }}
@@ -78,8 +81,8 @@ export default function () {
           <Button size="small" variant="contained">
             Buy
           </Button>
-          <CreateRoundedIcon />
-          <DeleteRoundedIcon />
+          <CreateRoundedIcon style={{ float: "right" }} />
+          <DeleteRoundedIcon style={{ float: "right" }} />
         </CardActions>
       </Card>
     </>
